@@ -1,0 +1,39 @@
+Computational Geometry Assignment 3 03/28/2016.
+
+This program was written in C++.
+
+In order to run this program:
+1. Open terminal, and cd into where the program is located.
+2. Make the program using the following command:
+	
+	make
+
+3. Run the program using the following command:
+	
+	./viewPoints n
+  
+   where n can be substituted for some integer.
+
+This program will generate n random points (as specified by the user), and create a kd tree based on these n points, and will print out the nodes and leaves in the tree. After having created the kd tree, this program will then illustrate the kd tree by rendering it so that it looks similar to a Mondran painting. 
+
+You can test our program against test cases by pressing the following keys:
+
+ - Spacebar: The kd tree will be built using n random points as input.
+
+ - 1: The kd tree will be built using a series of points where some points are coincident.
+
+ - 2: The kd will be built for a degenerative case that can result in infinite recursion (as mentioned in the project description).
+
+- 3: The kd tree will be built using a series of points with the same y coordinate (a horizontal line).
+
+- 4: The kd tree will be built using a series of points with the same x coordinate (a vertical line).
+
+- 5: The kd tree will be built using a series of points that create a square. This test case was written by Bobby, Demi and Carolina.
+
+- 6: The kd tree will be built using a series of points that create a cross. This test case was written by Drew.
+
+- 7: The kd tree will be built using a series of points that create a right angle. This test case was written by Drew.
+
+- q: This quits the program.
+
+Marcus Christiansen & Parker Hayes.

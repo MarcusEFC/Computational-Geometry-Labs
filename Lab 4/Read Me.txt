@@ -1,0 +1,25 @@
+Computational Geometry Assignment 4 05/03/2016.
+
+This program was written in C++.
+
+In order to run this program:
+1. Open terminal, and cd into where the program is located.
+2. Make the program using the following command:
+	
+	make
+
+3. Run the program using the following command:
+	
+	./main
+  
+This program will allow the user to generate a random polygon, before placing a guard point, where this function will then render the visible polygon with respect to the guard.
+
+You can test our program using the following keys:
+
+- 's' : This will allow the user to redraw a polygon using the mouse. If the drawn polygon is not simple, the visible polygon will not be rendered, and a short error message will be printed. The user can press 's' again to redraw the polygon.
+
+- 'e' : After having drawn the polygon, the user can press 'e' to place the guard. The user can place the guard using the mouse. If the guard is not placed inside the polygon, the visible polygon will not be rendered, and a short error message will be printed. Otherwise, the visible polygon will be rendered in red. The user can replace the guard using the mouse. 
+
+- 'q' : This quits the program. 
+
+Marcus Christiansen & Parker Hayes.

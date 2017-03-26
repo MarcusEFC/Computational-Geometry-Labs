@@ -1,0 +1,36 @@
+Computational Geometry Assignment 2 03/21/2016.
+
+This program was written in C++.
+
+In order to run this program:
+1. Open terminal, and cd into where the program is located.
+2. Make the program using the following command:
+	
+	make
+
+3. Run the program using the following command:
+	
+	./viewPoints n
+  
+   where n can be substituted for some integer.
+
+This program will draw a set of horizontal and vertical line segments in the default 2D
+projection. Then computes their intersections using the line sweep algorithm, and  simulates the algorithm as it runs. The segment that is currently being processed will be shown in red. The number inputted by the user is the number of lines segments that will be drawn. This number must be greater than or equal to 1, however, works better with more line segments.
+
+You can test our program against test cases by pressing the following keys:
+
+- 1: Draws overlapping vertical line segments and determines the overlapping points.
+
+- 2: Draws overlapping horizontal line segments and determines the overlapping points.
+
+- 3: Draws a lattice of overlapping line segments and determines the overlapping points.
+
+- 4: Draws overlapping horizontal line segments, where they overlap on a rolling basis, and determines the overlapping points.
+
+- 5: Draws several horizontal and vertical liens overlapping at the same point and determines the overlapping points.
+
+- 6: Draws several overlapping line segments and determines the overlapping points.
+
+- q: This quits the program.
+
+Marcus Christiansen & Parker Hayes.

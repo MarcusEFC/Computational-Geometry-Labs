@@ -1,0 +1,31 @@
+Computational Geometry Assignment 1 03/13/2016.
+
+This program was written in C++.
+
+In order to run this program:
+1. Open terminal, and cd into where the program is located.
+2. Make the program using the following command:
+	
+	make
+
+3. Run the program using the following command:
+	
+	./viewPoints n
+  
+   where n can be substituted for some integer.
+
+This program will generate n random points (as specified by the user), and determine the convex hull of the n randomly generated points. The number of points must be greater than or equal to 3.
+
+You can test our program against test cases by pressing the following keys:
+
+- 1: Reinitializes n random points and determines its convex hull
+
+- 2: Reinitializes n random points in a star formation, and determines its convex hull (this test works best with more than 500 points)
+
+- 3: Reinitializes n random points in a circle formation, and determines its convex hull
+
+- 3: Reinitializes n random points in a line formation, and determines its convex hull
+
+- q: This quits the program.
+
+Marcus Christiansen & Parker Hayes.
